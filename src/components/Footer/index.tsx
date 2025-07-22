@@ -67,7 +67,7 @@ export default function Footer({
       </footer>
       <div className={styles.copryright}>
         <Typography variantStyle="body">
-          2025
+          Desenvolvido por Alura. Projeto fictício sem fins comerciais.
         </Typography>
       </div>
     </>

@@ -1,0 +1,57 @@
+button {
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  border: 1px solid var(--roxo);
+  padding: 16px 24px;
+  font-size: 20px;
+  line-height: 24px;
+  gap: 8px;
+}
+
+/* Variantes de cor */
+.primary {
+  background-color: var(--roxo);
+  color: var(--branco);
+}
+
+.primary:hover {
+  background-color: var(--roxo-escuro);
+  border-color: var(--roxo-escuro);
+}
+
+.secondary {
+  background-color: transparent;
+
+  border-color: var(--roxo);
+}
+
+.secondary:hover {
+  border-color: var(--roxo);
+  color: var(--roxo);
+}
+
+/* Variantes de tamanho */
+.small {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.medium {
+  padding: 16px 24px;
+  font-size: 16px;
+}
+
+.large {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+}

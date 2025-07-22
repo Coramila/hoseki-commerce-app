@@ -1,0 +1,154 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.heading-large,
+.heading,
+.heading-small,
+.body-semi-bold,
+.body-large,
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 76px;
+  line-height: 120%;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 61px;
+  line-height: 120%;
+}
+
+h3 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+h4 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 39px;
+  line-height: 46px;
+}
+
+h5 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 31px;
+  line-height: 37.2px;
+}
+
+h6 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+/* H6 menor, caso necessário */
+.h6-small {
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+/* Cabeçalhos Poppins */
+.heading-large {
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.heading-regular {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.heading-small {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.heading-semi-bold {
+  font-family: "Poppins", sans-serif;
+  font-size: 31px;
+  line-height: 46.5px;
+  font-weight: 600;
+}
+
+/* Corpo Poppins */
+.body-large-bold {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.body-large {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.body-bold {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+/* Corpo pequeno Poppins */
+.body-small {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.body-small-bold {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+}
+
+.body-small-regular {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.body-semi-bold {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+}

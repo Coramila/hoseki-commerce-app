@@ -1,0 +1,74 @@
+.footer {
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+  padding: 60px 0;
+}
+
+.logoAndSlogan {
+  display: flex;
+  flex-direction: column;
+}
+
+.sloganText {
+  color: var(--verde);
+  margin-top: 24px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentMethods {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.paymentIcons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.socialMedia {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.copryright {
+  position: absolute;
+  width: 100%;
+  background-color: var(--cinza-claro);
+  display: flex;
+  align-items: center;
+  height: 90px;
+  justify-content: center;
+  color: var(--azul-escuro);
+  padding: 8px;
+}

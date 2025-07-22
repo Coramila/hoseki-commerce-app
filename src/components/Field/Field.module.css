@@ -1,0 +1,14 @@
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.inputFieldContainer {
+  display: flex;
+  gap: 10px;
+}

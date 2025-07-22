@@ -1,0 +1,49 @@
+.categories {
+  margin-bottom: 80px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subTitle {
+  color: var(--cinza);
+  margin: 0 4px 40px;
+  text-align: center;
+}
+
+/* Solução com flexbox*/
+.gridContainer {
+  display: flex;
+  margin: 24px 0;
+  gap: 24px;
+}
+
+.gridContainer > div {
+  box-shadow: 0px 4px 24px 0px #7b7b7b26;
+}
+
+.gridItem1 {
+  width: 65%;
+}
+
+.gridItem2 {
+  width: 35%;
+}
+
+.gridContainer img {
+  width: 100%;
+  height: 331px;
+  object-fit: cover;
+  max-width: none;
+}
+
+.reverse {
+  flex-flow: row-reverse;
+}
+
+.gridLabel {
+  text-align: center;
+  padding: 16px 0;
+}

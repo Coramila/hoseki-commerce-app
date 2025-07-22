@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap");
+
+/* Definição das variáveis globais de cor */
+:root {
+  --cinza: #5e6e89;
+  --cinza-medio: #444444;
+  --cinza-claro: #efefef;
+  --azul-escuro: #090129;
+  --rosa: #ff55df;
+  --verde: #8fff24;
+  --roxo-escuro: #430091;
+  --roxo: #780bf7;
+  --branco: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}

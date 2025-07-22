@@ -1,0 +1,41 @@
+.container {
+  background-color: var(--verde);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  color: #19325c;
+}
+
+.containerInner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  margin: 24px 14px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.error {
+  color: #ef4444;
+  margin-top: 0.5rem;
+  margin-left: 20%;
+}
+
+.newsletterButton {
+  width: 145px;
+}

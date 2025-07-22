@@ -1,0 +1,43 @@
+.productDetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productImage {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.detailContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 53px 0;
+}
+
+.colorOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radioGroup {
+  display: flex;
+  margin: 32px 0;
+  gap: 32px;
+}
+
+.action {
+  width: 304px;
+}

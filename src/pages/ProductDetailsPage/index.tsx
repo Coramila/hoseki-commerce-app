@@ -8,6 +8,7 @@ import ProductDetail from "../../components/ProductDetail/ProductDetail";
 import { PRODUCTS_BASE_URL } from "../../common/constants/endpoints";
 import { Product } from "../../common/types/product";
 import StatusHandler from "../../common/utils/statusHandler";
+import BackgroundBanner from "../../components/BackgroundBanner";
 
 type ProductDetailsPageProps = {
   addToCart: (product: Product) => void;
@@ -42,6 +43,8 @@ function ProductDetailsPage({ addToCart }: ProductDetailsPageProps) {
   }, [id]);
 
   return (
+    <>
+    <BackgroundBanner backgroundImage="https://raw.githubusercontent.com/Coramila/hoseki-assets/refs/heads/main/banner-secoes.png"/>
     <main className="container">
       <section>
         <div className={Styles.productContainer}>
@@ -64,7 +67,8 @@ function ProductDetailsPage({ addToCart }: ProductDetailsPageProps) {
           </StatusHandler>
         </div>
       </section>
-    </main>
+    </main></>
+    
   );
 }
 

@@ -1,22 +1,12 @@
-import { CSSProperties } from "react";
+import { InputHTMLAttributes } from "react";
 import Styles from "./Input.module.css";
 
 export type InputProps = {
-  variant?: "primary" | "secondary";
-  placeholder?: string;
-  value?: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  id?: string;
-  style?: CSSProperties;
-  type?: string;
-};
+  variant?: "primary" | "secondary";  
+} & InputHTMLAttributes<HTMLInputElement>;
 
 const Input = ({
-  variant = "primary",
-  onChange,
-  placeholder,
-  id,
-  style,
+  variant = "primary", 
   type = "text",
   ...props
 }: InputProps) => {
@@ -24,11 +14,7 @@ const Input = ({
       <input
         type={type}
         className={Styles[variant]}
-        style={style}
         {...props}
-        onChange={() => onChange}
-        id={id}
-        placeholder={placeholder}
       />
   );
 };

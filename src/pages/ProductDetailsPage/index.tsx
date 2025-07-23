@@ -4,7 +4,7 @@ import axios from "axios";
 
 import Styles from "./ProductDetailsPage.module.css";
 import Typography from "../../components/Typography";
-import ProductDetail from "../../components/ProductDetail/ProductDetail";
+import ProductDetail from "../../components/ProductDetail";
 import { PRODUCTS_BASE_URL } from "../../common/constants/endpoints";
 import { Product } from "../../common/types/product";
 import StatusHandler from "../../common/utils/statusHandler";

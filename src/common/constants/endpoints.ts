@@ -1,2 +1,2 @@
-export const CATEGORIES_BASE_URL = "https://api.npoint.io/b21b82429dc7f85ab420";
-export const PRODUCTS_BASE_URL = "https://api.npoint.io/b3c9f5a44b335bd83c16";
+export const CATEGORIES_BASE_URL = "https://api.npoint.io/b5e25da60dcab9d88ea6";
+export const PRODUCTS_BASE_URL = "https://api.npoint.io/df63c8e257ed78d78500";

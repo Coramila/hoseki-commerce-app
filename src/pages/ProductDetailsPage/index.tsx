@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 import { useParams } from "react-router-dom";
 import Styles from "./ProductDetailsPage.module.css";
 import Typography from "../../components/Typography";
@@ -8,7 +8,6 @@ import { Product } from "../../common/types/product";
 import StatusHandler from "../../common/utils/statusHandler";
 import BackgroundBanner from "../../components/BackgroundBanner";
 import useFetch from "../../common/hooks/useFetch";
-
 type ProductDetailsPageProps = {
   addToCart: (product: Product) => void;
 };

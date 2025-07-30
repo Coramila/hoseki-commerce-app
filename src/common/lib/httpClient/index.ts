@@ -1,5 +1,5 @@
 import axios from "axios";
-import {IHttp} from "./http.interface";
+import {IHttp} from "../../interfaces/http.interface";
 
 const Http = (): IHttp => {
     return{

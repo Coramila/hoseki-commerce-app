@@ -40,8 +40,8 @@ function HomePage() {
         mainImage="https://raw.githubusercontent.com/Coramila/hoseki-assets/refs/heads/main/hero.png"
       >
         <Typography variant="h1">
-          Hora de abraçar seu{" "}
-          <span style={{ color: "#8fff24" }}>lado geek!</span>
+          Descubra o Brilho que{" "}
+          <span style={{ color: "#8fff24" }}>Fala por Você!</span>
         </Typography>
         <Button onClick={() => console.log("ver novidades")} size="large">
           Ver as novidades!

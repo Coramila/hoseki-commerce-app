@@ -29,7 +29,7 @@ export default function Footer({
             <div className={styles.logoAndSlogan}>
               <LogoVerdeIcon />
               <Typography className={styles.sloganText}>
-                Hora de abraçar seu lado geek!
+                Descubra o Brilho que Fala por Você
               </Typography>
             </div>
 

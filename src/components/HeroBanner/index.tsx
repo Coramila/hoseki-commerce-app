@@ -24,7 +24,7 @@ const HeroBanner = ({
           <div className={styles.mainImageWrapper}>
             <img
               src={mainImage}
-              alt="Hora de abraças seu lado geek!"
+              alt="Descubra o Brilho que Fala por Você!"
               className={styles.mainImage}
             />
           </div>

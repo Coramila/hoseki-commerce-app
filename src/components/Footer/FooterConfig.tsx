@@ -16,7 +16,7 @@ export default function FooterConfig() {
       title: "Funcionamento",
       items: [
         "Segunda a Sexta - 8h às 18h",
-        "sac@usedev.com.br",
+        "sac@hoseki.com.br",
         "0800 541 320",
       ],
     },

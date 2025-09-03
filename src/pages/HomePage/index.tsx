@@ -41,7 +41,7 @@ function HomePage() {
       >
         <Typography variant="h1">
           Descubra o Brilho que{" "}
-          <span style={{ color: "#8fff24" }}>Fala por Você!</span>
+          <span>Fala por Você!</span>
         </Typography>
         <Button onClick={() => console.log("ver novidades")} size="large">
           Ver as novidades!

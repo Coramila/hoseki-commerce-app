@@ -14,8 +14,7 @@ const Categories = ({ categories }: CategoriesProps) => {
       </Typography>
 
       <Typography variantStyle="heading-small" className={Styles.subTitle}>
-        De roupas a gadgets tecnológicos temos tudo para atender suas paixões e
-        hobbies com estilo e autenticidade.
+        Os mais diversos acessórios que você precisa adicionar ao seu porta-jóias
       </Typography>
 
       {categories.map((category, index) => {

@@ -14,18 +14,8 @@ const Button = ({
   size = "medium",
   ...props
 }: ButtonProps) => {
- 
-
   return (
-    <button
-      className={classnames(Styles[variant], Styles[size])}
-      {...props}
-    >
-
-      {/* Princípio da responsabilidade única (não atende, recebe 2 spans e um renderiza o ícone) 
-      <span className={Styles.icon}>{icon}</span>
-      <span className={Styles.text}>{text ? text : children}</span>*/}
-
+    <button className={classnames(Styles[variant], Styles[size])} {...props}>
       {children}
     </button>
   );

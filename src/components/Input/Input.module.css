@@ -15,24 +15,28 @@ input {
   }
 }
 
-.primary:hover,
-.secondary:hover {
+.primary input:hover,
+.secondary input:hover {
   border-color: var(--rosa);
 }
 
-.primary:focus,
-.secondary:focus {
+.primary input:focus,
+.secondary input:focus {
   border-color: var(--rosa);
   outline: none;
 }
 
-.primary {
+.primary input {
   background-color: transparent;
 }
 
-.secondary {
+.secondary input {
   border-color: var(--cinza-claro);
-  background-color:var(--cinza-claro);
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
 }
 
 .iconContainer {

@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/Header/Index";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import FooterConfig from "./components/Footer/FooterConfig";
 import HomePage from "./pages/HomePage";
@@ -24,7 +24,7 @@ function App({ cartItems, cartCount, addToCart, removeFromCart }: CartProps) {
           <Route
             path="/carrinho"
             element={
-              <CartPage cartCount={cartCount} cartItems={cartItems} removeFromCart={removeFromCart} />
+              <CartPage cartItems={cartItems} removeFromCart={removeFromCart} />
             }
           />
         </>
